@@ -1,0 +1,9 @@
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 192.168.0.1
+deny from 2001:0db8:0000:0000:0000:0000:0000:0001
+deny from 2001:0db8:0000:0000:0000:0000:0000:0002/127
